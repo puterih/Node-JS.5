@@ -2,7 +2,13 @@
 // // Menggunakan Terminal
 // console.log('Hello WPU!');
 
-// memanggil dari ambil parameter
+// // memanggil dari ambil parameter
+// const cetakNama = (nama) => `Hi, Nama saya ${nama}`;
+// // Tidak memakai {} dan return karena hanya sebaris ekspresinya
+// console.log(cetakNama("Puteri Husnul"));
+
+// memanggil dari ambil variabel
+const nama = "Puteri Husnul";
 const cetakNama = (nama) => `Hi, Nama saya ${nama}`;
 // Tidak memakai {} dan return karena hanya sebaris ekspresinya
-console.log(cetakNama("Puteri Husnul"));
+console.log(cetakNama(nama));
